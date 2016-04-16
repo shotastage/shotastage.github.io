@@ -30,3 +30,10 @@
 #ln {
     color: #fc6e51;
 }
+
+
+
+/* Bootstrap */
+.navbar {
+    margin: 0;
+}
