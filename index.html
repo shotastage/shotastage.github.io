@@ -9,6 +9,11 @@
   _\ \/ _// /__
  /___/_/  \___/
     -->
+    <script>
+      if(location.protocol == 'http:') {
+          location.replace(location.href.replace(/http:/, 'https:'));
+      }
+    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
