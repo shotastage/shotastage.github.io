@@ -42,7 +42,7 @@
   </div>
 
   <script>
-    var lang = window.navigator.userLanguage ||window.navigator.language ||window.navigator.browserLanguage;
+    var lang = window.navigator.userLanguage || window.navigator.language || window.navigator.browserLanguage;
 
     var StringDefault = (function(param) {return param[0].replace(/\n|\r/g, "");})`
       <div class="alert alert-dismissible alert-info rv">
@@ -65,9 +65,9 @@
       </div>`;
 
     if ( lang === "ja" ) {
-      doc.write(StringJa);
+      document.write(StringJa);
     } else {
-      doc.write(StringDefault);
+      document.write(StringDefault);
     }
     </script>
   </div>
