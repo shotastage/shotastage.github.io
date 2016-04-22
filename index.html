@@ -41,15 +41,36 @@
     </p>
   </div>
 
-  <div class="alert alert-dismissible alert-info rv">
-    <button type="button" class="close" data-dismiss="alert">&times;</button>
-    <strong>おしらせ</strong>
-    <p>
-       ただいま、新サービス立ち上げにあたって音楽ライフと感心に関する調査を行っています。ご協力お願いします。
-        <a href="survey4loops.html" class="btn btn-success">こちらから</a>
-    </p>
-  </div>
-</div>
+  <script>
+    var lang = window.navigator.userLanguage ||window.navigator.language ||window.navigator.browserLanguage;
+
+    var StringDefault = (function(param) {return param[0].replace(/\n|\r/g, "");})`
+      <div class="alert alert-dismissible alert-info rv">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Notice</strong>
+        <p>
+              Now, I'm gathering survey of your music life and interesting of composing songs.
+              <a href="survey4loops.html" class="btn btn-success">Move to form</a>
+        </p>
+      </div>`;
+
+    var StringJa = (function(param) {return param[0].replace(/\n|\r/g, "");})`
+      <div class="alert alert-dismissible alert-info rv">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>おしらせ</strong>
+        <p>
+              ただいま、新サービス立ち上げにあたって音楽ライフと感心に関する調査を行っています。ご協力お願いします。
+              <a href="survey4loops.html" class="btn btn-success">こちらから</a>
+        </p>
+      </div>`;
+
+    if ( lang === "ja" ) {
+      doc.write(StringJa);
+    } else {
+      doc.write(StringDefault);
+    }
+    </script>
+  </div>
 <!-- comment end -->
 
 
@@ -124,7 +145,7 @@
           <span class="rv" id="ln">Shimazu</span>
       </h1>
       <p class="font-set-fredoka rv">
-          <span class="rv">I am japanese student (freshman).</span>
+          <span class="rv">I am japanese student.</span>
           <span class="rv">I'm interested in Web programming.</span>
       </p>
 
@@ -158,13 +179,13 @@
             <a class="list-group-item rv">
               <h4 class="list-group-item-heading">Keio University Students (SFC)</h4>
               <p class="list-group-item-text">
-                  I'm a freshman of faculty of Environment and Information studies at Keio University.
+                  I'm a student of faculty of Environment and Information Studies at Keio University.
               </p>
             </a>
             <a class="list-group-item rv">
               <h4 class="list-group-item-heading">Skill</h4>
               <p class="list-group-item-text">
-                Web, HTML,  CSS,  Basic JavaScript,  Sass,  Stylus,  Jade, Swift
+                Web, HTML,  CSS,  Basic JavaScript,  Sass,  Stylus,  Jade, ShellScript, Swift
                 <span class="badge">Learning</span>
               </p>
             </a>
