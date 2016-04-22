@@ -35,5 +35,7 @@
 
 /* Bootstrap */
 .navbar {
+    position: relative;
+    margin-top: 0;
     margin: 0;
 }
