@@ -44,25 +44,25 @@
   <script>
     var lang = window.navigator.userLanguage || window.navigator.language || window.navigator.browserLanguage;
 
-    var StringDefault = (function(param) {return param[0].replace(/\n|\r/g, "");})`
-      <div class="alert alert-dismissible alert-info rv">
-        <button type="button" class="close" data-dismiss="alert">&times;</button>
-        <strong>Notice</strong>
-        <p>
-              Now, I'm gathering survey of your music life and interesting of composing songs.
-              <a href="survey4loops.html" class="btn btn-success">Move to form</a>
-        </p>
-      </div>`;
+    var StringDefault = ''+
+      `<div class="alert alert-dismissible alert-info rv">`+
+        '<button type="button" class="close" data-dismiss="alert">&times;</button>'+
+        '<strong>Notice</strong>'+
+        '<p>'+
+              'Now, I am now gathering survey of your music life and interesting of composing songs.'+
+              '<a href="survey4loops.html" class="btn btn-success">Move to form</a>'+
+        '</p>'+
+      '</div>';
 
-    var StringJa = (function(param) {return param[0].replace(/\n|\r/g, "");})`
-      <div class="alert alert-dismissible alert-info rv">
-        <button type="button" class="close" data-dismiss="alert">&times;</button>
-        <strong>おしらせ</strong>
-        <p>
-              ただいま、新サービス立ち上げにあたって音楽ライフと感心に関する調査を行っています。ご協力お願いします。
-              <a href="survey4loops.html" class="btn btn-success">こちらから</a>
-        </p>
-      </div>`;
+    var StringJa = ''+
+      '<div class="alert alert-dismissible alert-info rv">'+
+        '<button type="button" class="close" data-dismiss="alert">&times;</button>'+
+        '<strong>おしらせ</strong>'+
+        '<p>'+
+              'ただいま、新サービス立ち上げにあたって音楽ライフと感心に関する調査を行っています。ご協力お願いします。'+
+              '<a href="survey4loops.html" class="btn btn-success">こちらから</a>'+
+        '</p>'+
+      '</div>';
 
     if ( lang === "ja" ) {
       document.write(StringJa);
@@ -192,7 +192,7 @@
             <a class="list-group-item rv">
               <h4 class="list-group-item-heading">Hobby</h4>
               <p class="list-group-item-text">
-                  My favorite things is playing the Electone which is instrument like electronic organ and design beautiful and cute UI.
+                  I like to play the Electone which is instrument like electronic organ and design beautiful and cute UI.
               </p>
             </a>
           </div>
