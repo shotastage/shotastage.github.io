@@ -2,8 +2,6 @@
 <html>
 <head>
     <!--
-    I'm a freshman of faculty of Environment and Information studies at Keio University.
-    訳: SFCの人、仲良くしましょう。(笑)　Twitter: shota_elstd
     _____________
    / __/ __/ ___/
   _\ \/ _// /__
@@ -33,44 +31,34 @@
         border-radius: 0;
     }
   </style>
-  <div class="alert alert-dismissible alert-danger rv">
-    <button type="button" class="close" data-dismiss="alert">&times;</button>
-    <strong>Warning!</strong>
-    <p>
-      This site is now under construction.
-    </p>
-  </div>
-
   <script>
     var lang = window.navigator.userLanguage || window.navigator.language || window.navigator.browserLanguage;
 
     var StringDefault = ''+
-      `<div class="alert alert-dismissible alert-info rv">`+
-        '<button type="button" class="close" data-dismiss="alert">&times;</button>'+
-        '<strong>Notice</strong>'+
-        '<p>'+
-              'Thank you for your cooperting in this questionare.'+
-              '<!--<a href="survey4loops.html" class="btn btn-success">Move to form</a>-->'+
-        '</p>'+
-      '</div>';
+      '<div class="alert alert-dismissible alert-danger rv">'+
+        '<button type="button" class="close" data-dismiss="alert">&times;</button>'+
+        '<strong>Warning!</strong>'+
+        '<p>'+
+          'This site is now under construction.'+
+        '</p>'+
+      '</div>';
 
     var StringJa = ''+
-      '<div class="alert alert-dismissible alert-info rv">'+
-        '<button type="button" class="close" data-dismiss="alert">&times;</button>'+
-        '<strong>おしらせ</strong>'+
-        '<p>'+
-              'アンケートにご協力ありがとうございました。'+
-              '<!--<a href="survey4loops.html" class="btn btn-success">こちらから</a>-->'+
-        '</p>'+
-      '</div>';
+      '<div class="alert alert-dismissible alert-danger rv">'+
+        '<button type="button" class="close" data-dismiss="alert">&times;</button>'+
+        '<strong>警告!</strong>'+
+        '<p>'+
+          'このサイトは準備中です。'+
+        '</p>'+
+      '</div>';
 
     if ( lang === "ja" ) {
       document.write(StringJa);
     } else {
       document.write(StringDefault);
     }
-    </script>
-  </div>
+  </script>
+</div>
 <!-- comment end -->
 
 
@@ -134,8 +122,10 @@
           <span class="rv" id="im">I'm</span>
           <span class="rv" id="shota">Shota</span>
           <span class="rv" id="peroid">.</span>
+          <!--
           <span class="rv" id="fn">Shota</span>
           <span class="rv" id="ln">Shimazu</span>
+          -->
       </h1>
       <p class="font-set-fredoka rv">
           <span class="rv">I am japanese undergraduate student.</span>
