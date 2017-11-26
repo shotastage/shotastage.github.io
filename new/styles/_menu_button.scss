@@ -1,0 +1,13 @@
+
+.menu_button {
+    $margin: 30px;
+    $size: 70px;
+
+    position: fixed;
+    right: $margin;
+    bottom: $margin;
+    width: $size;
+    height: $size;
+    background: #fff;
+    border-radius: 10px;
+}

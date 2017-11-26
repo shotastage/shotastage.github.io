@@ -128,15 +128,13 @@ class Compiler():
         shutil.copy2("./new/dist/script/site.js", "./new/dist/site.js")
 
 
-    def create_assets(self):
-        pass
-        """
+    def create_assets(self):   
         Log("Creating assets pack...")
         try:
-            dir_util.copy_tree('./assets/', './dist/')
+            dir_util.copy_tree('./new/assets/', './new/dist/assets/')
         except:
             Log("Failed to copy assets directory. ", withError = True)
-        """
+
 
 
     def compress_svg(self):
