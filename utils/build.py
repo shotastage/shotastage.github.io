@@ -65,7 +65,7 @@ class Compiler():
         Log("Compiling pug...")
         for page in target_pages:
             try:
-                output = subprocess.check_output(["./node_modules/.bin/pug", page, "--out", "./new/dist/"])
+                output = subprocess.check_output(["./node_modules/.bin/pug", os.getcwd() + "/new/" + page, "--out", "./new/dist/"])
             except:
                 Log("Failed to compile Pug!", withError = True)
                 Log("You may not install pug and pug-cli?", withError = True)
@@ -216,6 +216,7 @@ if __name__ == "__main__":
         a.wait()
         b.wait()
         d.wait()
+
     
 
     if SCRIPT_MODE == "--production":
