@@ -7,7 +7,9 @@
   "author": "Shota Shimazu <hornet.live.mf@gmail.com>",
   "license": "UNLICENSED",
   "devDependencies": {
+    "javascript-obfuscator": "^0.12.3",
     "node-sass": "^4.7.2",
-    "pug": "^2.0.0-rc.4"
+    "pug": "^2.0.0-rc.4",
+    "pug-cli": "^1.0.0-alpha6"
   }
 }
