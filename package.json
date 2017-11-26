@@ -1,0 +1,12 @@
+{
+  "name": "shotastage.github.io",
+  "version": "0.0.1",
+  "description": "Official web site of shotastage.",
+  "main": "index.js",
+  "repository": "https://github.com/shotastage/shotastage.github.io.git",
+  "author": "Shota Shimazu <hornet.live.mf@gmail.com>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
