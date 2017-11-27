@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa|Fredoka+One|Source+Code+Pro);
+
+.font-set-comfortaa {
+    font-family: 'Comfortaa', cursive;
+}
+
+.font-set-fredoka {
+    font-family: 'Fredoka One', cursive;
+}
+
+
+
+/* My name */
+#hi {
+    color: #ed5565;
+}
+
+#im {
+    color: #5d9cec;
+}
+
+#shota {
+    color: #f6bb42;
+}
+
+#fn {
+    color: #ec87c0;
+}
+
+#ln {
+    color: #fc6e51;
+}
+
+
+
+/* Bootstrap */
+.navbar {
+    position: relative;
+    margin-top: 0;
+    margin: 0;
+}
