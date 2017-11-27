@@ -2,7 +2,8 @@
     height: 100vh;
     width: 100vw;
     background-color: #464646;    
-    background: url("./assets/music_creating.png") !important;
+    // background: url("./assets/music_creating.png");
+    background: #FFCE54;
     mask-image: linear-gradient(black 0%, transparent 100%);    
     background-position: center center;
     background-repeat: no-repeat;
@@ -13,6 +14,8 @@
 }
 
 .ss_top_jumbotron_text {
-    color: #C91F37;
+    color: #ED5565;
     font-size: 10rem;
+    font-weight: 400;
+    font-family: 'Fredoka One', cursive;
 }

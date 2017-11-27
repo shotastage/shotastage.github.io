@@ -1,7 +1,9 @@
 
 .menu_button {
     $margin: 30px;
-    $size: 70px;
+    $size: 60px;
+
+    @include button-reset;
 
     position: fixed;
     right: $margin;
@@ -9,5 +11,7 @@
     width: $size;
     height: $size;
     background: #fff;
-    border-radius: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    outline: none;    
 }

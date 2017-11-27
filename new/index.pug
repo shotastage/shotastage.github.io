@@ -8,10 +8,19 @@ extends templates/_layout.pug
 block contents
     .jumbotron.ss_top_jumbotron
         .row
-            .col-md-6
+            .col-md-6.ss-card.ss-card-blue
                 h1.ss_top_jumbotron_text Shota
                 h1.ss_top_jumbotron_text Shimazu
-            .col-md-6
-                h1.ss_top_jumbotron_text SS
+            .col-md-6.ss-card
+                h1.ss_top_jumbotron_text Portfolio
 
-    button.menu_button
+    button.menu_button#toggle
+
+    .container
+        .row
+            .col-12
+                h1 About
+
+        .row
+            .col-12
+                h1 Works
