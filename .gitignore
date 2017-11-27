@@ -164,6 +164,3 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-
-
-/new/dist/
