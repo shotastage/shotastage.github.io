@@ -1,0 +1,17 @@
+
+.text-direction-vertical {
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    white-space: nowrap;    
+}
+
+.mega-message {
+    $margin: 30px;
+
+    z-index: 1000;
+    position: absolute;
+    top: $margin + 20px;
+    left: $margin;
+    font-family: "Hannari";
+}
