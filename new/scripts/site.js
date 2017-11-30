@@ -6,7 +6,7 @@ $.toast({
     allowToastClose : false,
     hideAfter : 5000,
     stack : 5,
-    loaderBg: '#fff',
+    loaderBg: '#FF3979',
     textAlign : 'left',
     position : 'bottom-left'
 });
@@ -19,7 +19,7 @@ $.toast({
     allowToastClose : false,
     hideAfter : 10000,
     stack : 10,
-    loaderBg: '#fff',
+    loaderBg: '#FF3979',
     textAlign : 'left',
     position : 'bottom-left'
 });
