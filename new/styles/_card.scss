@@ -1,7 +1,14 @@
 
 .ss-card {
     background: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
+    font-family: "Sawarabi Gothic";
+
+    p {
+        margin: 23px;
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+    }
 }
 
 .ss-card-transparent {
@@ -10,4 +17,10 @@
 
 .ss-card-blue {
     background: #4FC1E9;
+    color: #fff;
+}
+
+.ss-card-radical-red {
+    background: #F62459;
+    color: #fff;
 }
