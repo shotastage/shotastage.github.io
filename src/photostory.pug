@@ -2,31 +2,33 @@
     Copyright (c) 2017 Shota Shimazu.
     Created by Shota Shimazu on 2017/11/27
 
-
 extends templates/_layout.pug
 
 block contents
-    h1.mega-message.ss_top_jumbotron_text.text-direction-vertical 灰色の景色にも光がある
+    h1.mega-message.ss_top_jumbotron_text.text-direction-vertical
+        span.text-bg 灰色の景色にも光がある
     .jumbotron.ss_top_jumbotron
         .row
-            .col-md-6.ss-card.ss-card-blue
-                h1 あぁぁぁ
-            .col-md-6.ss-card.ss-card-transparent
-                .text-center
-                    img.avator(src="./assets/ava.jpg" class="rounded" alt="...")
+            
 
     button.menu_button#toggle
     
 
     .container
         .row
-            .col-12
-                h1 About Me
+            h1.section-text About My Life
+            .section-line
+        .row.ss-card
+            .col-12.ss-card-radical-red
+                p 1997年に神奈川県横浜市保土ヶ谷区に生まれる。<br>
+                    | 慶應義塾大学に入学<br>
+                
         .row
-            .col-12
-                p 1997年に神奈川県横浜市に生まれる。幼少期より
+            h1.section-text Works   
+            .section-line
+        .row.ss-card
+            .col-12.ss-card-transparent
+                p なんも進捗ないーーーー
 
-        .row
-            .col-12
-                h1 Works
-        
+    .copyright
+        p Copyright © 2017 Shota Shimazu All rights reserved.
