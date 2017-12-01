@@ -5,6 +5,7 @@
 
     @include button-reset;
 
+    z-index: 2000;
     position: fixed;
     right: $margin;
     bottom: $margin;
