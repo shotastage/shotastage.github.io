@@ -1,3 +1,19 @@
+/*
+*   SHOTA Portfolio
+*   Copyright (c) 2017 Shota Shimazu
+*/
+
+//
+// ScrollReveal.js
+// 
+window.sr = ScrollReveal();
+sr.reveal('.ss-animate');
+
+
+//
+//  jQuery Toast
+//
+
 $.toast({ 
     text : "Welcome to SHOTA portfolio site.", 
     showHideTransition : 'slide',

@@ -92,14 +92,14 @@ class Compiler():
         # JavaScript Libraries
         Log("Reading JavaScript libraries...")
         try:
-            libraries = os.listdir("./src/scripts/libs")
+            libraries = os.listdir("./src/scripts/vendors")
         except:
             Log("Failed to get JavaScripts!", withError = True)
 
         Log("Generating minified libraries...")
         for lib in libraries:
             if ".js" in lib:
-                out = subprocess.check_output(["./node_modules/.bin/javascript-obfuscator", "./src/scripts/libs/" + lib , "--output", "tmp.js"])
+                out = subprocess.check_output(["./node_modules/.bin/javascript-obfuscator", "./src/scripts/vendors/" + lib , "--output", "tmp.js"])
                 with open("tmp.js", "r") as f:
                     script_string += f.read()
                     os.remove("tmp.js")
