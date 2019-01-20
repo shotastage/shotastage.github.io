@@ -1,15 +1,25 @@
 {
   "name": "shotastage.github.io",
-  "version": "0.0.1",
-  "description": "Official web site of shotastage.",
-  "main": "index.js",
-  "repository": "https://github.com/shotastage/shotastage.github.io.git",
-  "author": "Shota Shimazu <hornet.live.mf@gmail.com>",
-  "license": "UNLICENSED",
-  "devDependencies": {
-    "javascript-obfuscator": "^0.12.3",
-    "node-sass": "^4.7.2",
-    "pug": "^2.0.0-rc.4",
-    "pug-cli": "^1.0.0-alpha6"
-  }
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "2.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
