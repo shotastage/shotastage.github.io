@@ -1,28 +1,27 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
 
-class App extends Component {
+class App extends React.Component {
+
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Container>
+        <Row>
+          <Col xs="6">
+            <h1>Shota Shimazu</h1>
+          </Col>
+          <Col xs="6">.col-6</Col>
+        </Row>
+        <Row>
+          <Col>
+            <p>Copyright © 2018-2019 Shota Shimazu, All rights reserved.</p>
+          </Col>
+        </Row>
+      </Container>
     );
   }
 }
+
 
 export default App;
