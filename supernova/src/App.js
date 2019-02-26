@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import { MyName, FooterCopyright } from './Components';
 
 class App extends React.Component {
 
@@ -9,13 +10,13 @@ class App extends React.Component {
       <Container>
         <Row>
           <Col xs="6">
-            <h1>Shota Shimazu</h1>
+            <MyName></MyName>
           </Col>
-          <Col xs="6">.col-6</Col>
+          <Col xs="6">BLANK</Col>
         </Row>
         <Row>
           <Col>
-            <p>Copyright © 2018-2019 Shota Shimazu, All rights reserved.</p>
+            <FooterCopyright></FooterCopyright>
           </Col>
         </Row>
       </Container>
