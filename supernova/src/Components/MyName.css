@@ -1,8 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:500');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
+
+.name_header_bg {
+    background: #9AE0FF;
+}
 
 .name_header {
     font-size: 10rem;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
     color: #FF4141;
 }
 
