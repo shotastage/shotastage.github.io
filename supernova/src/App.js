@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import { MyName, FooterCopyright } from './Components';
+import { MyName } from './Components/MyName';
+import { FooterCopyright } from './Components/FooterCopyright';
 
 class App extends React.Component {
 
