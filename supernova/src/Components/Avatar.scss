@@ -1,6 +1,9 @@
+$img_size: 300px;
+$img_size__mobile: 220px;
+
 .avatar_image {
-    width: 300px;
-    height: 300px;
+    width: $img_size;
+    height: $img_size;
     border-radius: 50% !important;
 }
 
@@ -14,8 +17,8 @@
 
 @media screen and (max-width: 480px) {
     .avatar_image {
-        width: 220px;
-        height: 220px;
+        width: $img_size__mobile;
+        height: $img_size__mobile;
     }
     
 }
