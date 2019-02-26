@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:500|Roboto');
 
-p {
+.copyright_text {
     font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+    p {
+        font-size: 0.7rem;
+        width: 100%;
+        text-align: center;
+    }
 }

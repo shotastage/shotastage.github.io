@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:500');
 
-h1 {
+.name_header {
     font-size: 10rem;
     font-family: 'Fira Sans', sans-serif;
     color: #FF4141;
+}
+
+
+@media screen and (max-width: 480px) {
+    .name_header {
+        font-size: 5rem;
+    }
 }

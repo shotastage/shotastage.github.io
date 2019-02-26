@@ -17,6 +17,7 @@ class App extends React.Component {
         </Row>
         <Row>
           <Col>
+            <p>テストです</p>
             <FooterCopyright></FooterCopyright>
           </Col>
         </Row>

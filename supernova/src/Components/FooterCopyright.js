@@ -11,7 +11,7 @@ export class FooterCopyright extends React.Component {
 
   render() {
     return (
-        <p>
+        <p className="copyright_text">
             Copyright © 2018 to {this.getCurrentYear()} Shota Shimazu, All rights reserved.
         </p>
     );
