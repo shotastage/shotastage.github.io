@@ -5,8 +5,7 @@ import './FooterCopyright.css';
 export class FooterCopyright extends React.Component {
 
   getCurrentYear() {
-    var now   = new Date();       
-    return now.getFullYear();
+    return new Date().getFullYear();      
   }
 
   render() {

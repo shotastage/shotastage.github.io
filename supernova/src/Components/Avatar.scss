@@ -5,11 +5,11 @@ $img_size__mobile: 220px;
     width: $img_size;
     height: $img_size;
     border-radius: 50% !important;
+    margin: 20px;
 }
 
 .wrap {
     max-width: 50%;
-    background: red;
     margin: 0 auto;
 }
 

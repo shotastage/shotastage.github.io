@@ -1,7 +1,8 @@
 import React from 'react';
 import {
-    Navbar, Nav, NavDropdown, Form, FormControl, Button
+    Navbar, Nav, NavDropdown
 } from 'react-bootstrap';
+import logo from '../logo.svg';
 import './Navigation.scss';
 
 
@@ -9,9 +10,19 @@ import './Navigation.scss';
 export class Navigation extends React.Component {
 
   render() {
+
+
     return (
         <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="#home">SHOTA</Navbar.Brand>
+            <Navbar.Brand href="/">
+                <img
+                    alt=""
+                    src={logo}
+                    width="30"
+                    height="30"
+                    className="d-inline-block align-top"
+                />
+            </Navbar.Brand>
             <Navbar.Toggle className="Navbar_Toggle" aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
@@ -25,10 +36,6 @@ export class Navigation extends React.Component {
                         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
-                <Form inline>
-                    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                    <Button variant="outline-success">Search</Button>
-                </Form>
             </Navbar.Collapse>
         </Navbar>
     );
