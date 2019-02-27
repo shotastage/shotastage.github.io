@@ -4,6 +4,7 @@ import { MyName } from './Components/MyName';
 import { FooterCopyright } from './Components/FooterCopyright';
 import { Avator } from './Components/Avatar'
 import { Navigation } from './Components/Navigation';
+import { InstagramFrame } from './Components/InstagramFrame';
 import './App.scss';
 
 
@@ -25,7 +26,29 @@ class App extends React.Component {
           </Row>
           <Row>
             <Col>
-              <p>テストです</p>
+              <h1>Instagram</h1>
+              <InstagramFrame />
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <h1>Services</h1>
+            </Col>
+          </Row>
+          <div>
+            <Row>
+              <Col> 
+                <h1>Web Sites</h1>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <a href="https://pinna-map.herokuapp.com">PINNA</a>
+              </Col>
+            </Row>
+          </div>
+          <Row>
+            <Col>
               <FooterCopyright />
             </Col>
           </Row>
