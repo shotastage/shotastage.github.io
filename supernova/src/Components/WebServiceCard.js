@@ -8,7 +8,7 @@ export class WebServiceCard extends React.Component {
 
   render() {
     return (
-        <Card style={{ width: '30rem' }}>
+        <Card>
             <Card.Img variant="top" src={images} />
             <Card.Body>
                 <Card.Title>PINNA</Card.Title>

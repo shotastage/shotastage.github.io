@@ -6,8 +6,9 @@ import { Avator } from './Components/Avatar'
 import { Navigation } from './Components/Navigation';
 import { InstagramFrame } from './Components/InstagramFrame';
 import { SectionHeading } from './Components/SectionHeading';
-import { WebServiceCard } from './Components/WebServiceCard';
 
+import { AppWebSection } from './AppWebSection';
+import { WritingSection } from './WritingSection';
 import { Footer } from './Footer'
 import './App.scss';
 
@@ -39,40 +40,14 @@ class App extends React.Component {
               <SectionHeading />
             </Col>
           </Row>
-          <div>
-            <Row>
-              <Col> 
-                <SectionHeading>Services</SectionHeading>
-              </Col>
-            </Row>
-            <Row>
-              <Col>
-                <WebServiceCard/>
-              </Col>
-            </Row>
-          </div>
-          <div>
-            <Row>
-              <Col> 
-                <SectionHeading>Writings</SectionHeading>
-              </Col>
-            </Row>
-            <Row>
-              <Col>
-                <h1>Note</h1>
-              </Col>
-              <Col>
-                <h1>Qiita</h1>
-              </Col>
-              <Col>
-                <h1>Tumblr</h1>
-              </Col>
-            </Row>
-          </div>
+          <AppWebSection/>
+          <WritingSection/>
+
           <Row>
             <Col>
-            <Footer/>
-              <FooterCopyright />
+              <Footer>
+                <FooterCopyright />
+              </Footer>
             </Col>
           </Row>
         </Container>
