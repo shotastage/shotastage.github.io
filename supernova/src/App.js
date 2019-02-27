@@ -5,6 +5,7 @@ import { FooterCopyright } from './Components/FooterCopyright';
 import { Avator } from './Components/Avatar'
 import { Navigation } from './Components/Navigation';
 import { InstagramFrame } from './Components/InstagramFrame';
+import { SectionHeading } from './Components/SectionHeading';
 import './App.scss';
 
 
@@ -26,19 +27,19 @@ class App extends React.Component {
           </Row>
           <Row>
             <Col>
-              <h1>Instagram</h1>
+              <SectionHeading>Instagram</SectionHeading>
               <InstagramFrame />
             </Col>
           </Row>
           <Row>
             <Col>
-              <h1>Services</h1>
+              <SectionHeading />
             </Col>
           </Row>
           <div>
             <Row>
               <Col> 
-                <h1>Web Sites</h1>
+                <SectionHeading>Services</SectionHeading>
               </Col>
             </Row>
             <Row>
