@@ -1,12 +1,14 @@
 {
-  "name": "shotastage.github.io",
+  "name": "shotastage",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-scripts": "2.1.3",
-    "reactstrap": "^7.1.0"
+    "node-sass": "^4.11.0",
+    "react": "^16.8.1",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-dom": "^16.8.1",
+    "react-instagram-embed": "^1.5.0",
+    "react-scripts": "2.1.5"
   },
   "scripts": {
     "start": "react-scripts start",

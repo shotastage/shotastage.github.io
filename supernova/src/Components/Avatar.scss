@@ -1,0 +1,24 @@
+$img_size: 300px;
+$img_size__mobile: 220px;
+
+.avatar_image {
+    width: $img_size;
+    height: $img_size;
+    border-radius: 50% !important;
+    margin: 20px;
+}
+
+.wrap {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .avatar_image {
+        width: $img_size__mobile;
+        height: $img_size__mobile;
+    }
+    
+}

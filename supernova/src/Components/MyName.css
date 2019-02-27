@@ -1,0 +1,19 @@
+
+.name_header_bg {
+    background: #9AE0FF;
+}
+
+.name_header {
+    font-size: 10rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #FF4141;
+    margin: 20px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .name_header {
+        font-size: 5rem;
+    }
+}
