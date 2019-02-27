@@ -6,6 +6,9 @@ import { Avator } from './Components/Avatar'
 import { Navigation } from './Components/Navigation';
 import { InstagramFrame } from './Components/InstagramFrame';
 import { SectionHeading } from './Components/SectionHeading';
+import { WebServiceCard } from './Components/WebServiceCard';
+
+import { Footer } from './Footer'
 import './App.scss';
 
 
@@ -44,12 +47,31 @@ class App extends React.Component {
             </Row>
             <Row>
               <Col>
-                <a href="https://pinna-map.herokuapp.com">PINNA</a>
+                <WebServiceCard/>
+              </Col>
+            </Row>
+          </div>
+          <div>
+            <Row>
+              <Col> 
+                <SectionHeading>Writings</SectionHeading>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <h1>Note</h1>
+              </Col>
+              <Col>
+                <h1>Qiita</h1>
+              </Col>
+              <Col>
+                <h1>Tumblr</h1>
               </Col>
             </Row>
           </div>
           <Row>
             <Col>
+            <Footer/>
               <FooterCopyright />
             </Col>
           </Row>
