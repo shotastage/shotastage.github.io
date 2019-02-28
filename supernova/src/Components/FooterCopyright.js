@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 
-
 const CopyrightText = styled.p`
   font-family: 'Roboto', sans-serif;
   width: 100%;
@@ -15,6 +14,8 @@ const CopyrightText = styled.p`
     font-size: 0.7rem;
   }
 `;
+
+
 
 export class FooterCopyright extends React.Component {
 

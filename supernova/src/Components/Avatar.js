@@ -1,5 +1,23 @@
 import React from 'react';
-import './Avatar.scss';
+import styled from 'styled-components';
+
+
+const AvatarWrap = styled.div`
+  max-width: 50%;
+  margin: 0 auto;
+`;
+
+const AvatarImg = styled.img`
+  width: 300px;
+  height: 300px;
+  border-radius: 50% !important;
+  margin: 20px;
+
+  @media screen and (max-width: 480px) {
+    width: 220px;
+    height: 220px;
+  }
+`;
 
 
 export class Avator extends React.Component {
@@ -11,9 +29,9 @@ export class Avator extends React.Component {
     const altText = "My Profile Photo";
 
     return (
-        <div className="AvatarWrap">
-            <img className="AvatarImage" src={imgURL} alt={altText}/>
-        </div>
+        <AvatarWrap>
+            <AvatarImg src={imgURL} alt={altText}/>
+        </AvatarWrap>
     );
   }
 }
