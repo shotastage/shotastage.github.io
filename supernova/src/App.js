@@ -32,12 +32,12 @@ class App extends React.Component {
           <Row>
             <Col>
               <SectionHeading>Instagram</SectionHeading>
-              <InstagramFrame />
+              <InstagramFrame/>
             </Col>
           </Row>
           <Row>
             <Col>
-              <SectionHeading />
+              <SectionHeading/>
             </Col>
           </Row>
           <AppWebSection/>
@@ -46,7 +46,7 @@ class App extends React.Component {
           <Row>
             <Col>
               <Footer>
-                <FooterCopyright />
+                <FooterCopyright/>
               </Footer>
             </Col>
           </Row>

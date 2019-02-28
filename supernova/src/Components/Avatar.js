@@ -11,8 +11,8 @@ export class Avator extends React.Component {
     const altText = "My Profile Photo";
 
     return (
-        <div className="wrap">
-            <img className="avatar_image" src={imgURL} alt={altText}/>
+        <div className="AvatarWrap">
+            <img className="AvatarImage" src={imgURL} alt={altText}/>
         </div>
     );
   }

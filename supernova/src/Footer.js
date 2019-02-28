@@ -1,15 +1,20 @@
 import React from 'react';
-import './Footer.scss';
+import styled from 'styled-components';
 
+
+const StyledFooter = styled.div`
+  background: #fff !important;
+  width: 100%;
+`;
 
 export class Footer extends React.Component {
 
-
   render() {
+
     return (
-        <div className="FooterBody">
+        <StyledFooter>
             {this.props.children}
-        </div>
+        </StyledFooter>
     );
   }
 }
