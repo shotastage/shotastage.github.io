@@ -1,6 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import { SectionHeading } from './Components/SectionHeading';
+import { TileCard } from './Components/TileCard';
 
 
 export class WritingSection extends React.Component {
@@ -15,7 +16,9 @@ export class WritingSection extends React.Component {
             </Row>
             <Row>
               <Col>
-                <h1>Note</h1>
+                <TileCard>
+                  <h1>Note</h1>
+                </TileCard>
               </Col>
               <Col>
                 <h1>Qiita</h1>
