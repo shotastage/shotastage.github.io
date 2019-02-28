@@ -21,10 +21,14 @@ export class WritingSection extends React.Component {
                 </TileCard>
               </Col>
               <Col>
-                <h1>Qiita</h1>
+                <TileCard>
+                  <h1>Qiita</h1>
+                </TileCard>
               </Col>
               <Col>
-                <h1>Tumblr</h1>
+                <TileCard>
+                  <h1>Tumblr</h1>
+                </TileCard>
               </Col>
             </Row>
         </div>
