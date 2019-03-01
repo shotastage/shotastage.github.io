@@ -1,5 +1,6 @@
 import React from 'react';
-import { Card, Button } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
+import { SHButton } from './Buttons';
 import images from '../images/pinna_start_screen.png';
 
 
@@ -16,7 +17,7 @@ export class WebServiceCard extends React.Component {
                 PINNA is musical & geolocational web service that I created on 2016 autumn.
                 You can share songs, movies on Spotify or YouTube on Map.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <SHButton link="https://pinna-map.herokuapp.com" otherTab>GO THIS PAGE</SHButton>
             </Card.Body>
         </Card>
     );
