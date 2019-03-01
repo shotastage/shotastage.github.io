@@ -4,9 +4,10 @@ import styled from 'styled-components';
 
 
 const CardView = styled.div`
+  display: block;
   ${props => getTileColor(props)}
   width: 100%;
-  height: 300px;
+  height: 400px;
 
   h1 {
     color: #fff;
@@ -39,8 +40,6 @@ const getTileColor = props => {
 
 
 export class TileCard extends React.Component {
-
-  
 
   render() {
 

@@ -14,7 +14,7 @@ const BaseButton = styled.a`
     padding: 0.7em;
     border: 0.25em solid ${props => baseColor(props)};
     margin: 1.4em;
-    bottom: 0;
+    bottom: 0em;
 
     // Animation
     -webkit-transition: all .3s;
@@ -26,7 +26,6 @@ const BaseButton = styled.a`
       color: ${props => oppositeColor(props)} !important;
       letter-spacing: 0.1em;
       background: ${props => baseColor(props)};
-      border-color: ${props => baseColor(props)};
     }
 `;
 
