@@ -16,7 +16,7 @@ export class AppWebSection extends React.Component {
             </Row>
             <Row>
                 <Col>
-                    <WebServiceCard/>
+                    <WebServiceCard title="PINNA"/>
                 </Col>
                 <Col>
                     <WebServiceCard/>

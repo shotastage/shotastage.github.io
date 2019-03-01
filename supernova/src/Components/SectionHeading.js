@@ -8,6 +8,7 @@ const HeadingView = styled.h1`
   margin-top: 1em;
   margin-bottom: 0.4em;  
   letter-spacing: 0.07em; 
+  background: #fff;
 `;
 
 
