@@ -5,13 +5,13 @@ import styled from 'styled-components';
 
 const CardView = styled.div`
   display: block;
-  ${props => getTileColor(props)}
+  background: ${props => getTileColor(props)};
   width: 100%;
   height: 400px;
   margin-top: 1.5em;
 
   h1 {
-    color: #fff;
+    color: ${props => getTextColor(props)};
     font-weight: 700;
     letter-spacing: 0.15em;
     padding: 0.5em;
@@ -21,50 +21,57 @@ const CardView = styled.div`
 
 const getTileColor = props => {
   if (props.pink) {
-    return `
-      background: #ff75b3;
-    `
+    return "#ff3d3d";
   }
 
-  if (props.lightGreen){
-    return `
-      background: #36D7B7;
-    `
+  if (props.green) {
+    return "#1ae097";
   }
 
-  if (props.yellow){
-    return `
-      background: #FFB94E;
-    `
+  if (props.qiitaGreen) {
+    return "#45ff28";
   }
+
+  if (props.yellow) {
+    return "#FFB94E";
+  }
+
+  if (props.black) {
+    return "#282828";
+  }
+
+  if (props.purple) {
+    return "#d677ff";
+  }
+
+  if (props.white) {
+    return "#fff";
+  }
+
+  return "#ff3d3d";
+}
+
+
+
+const getTextColor = props => {
+  if (props.white) {
+    return "#333";
+  }
+
+  if (props.qiitaTextColor) {
+    return "#46ce31 !important";
+  }
+
+  return "#fff";
 }
 
 
 export class TileCard extends React.Component {
 
   render() {
-
-    if (this.props.pink) {
-      return (
-        <CardView pink>
-            {this.props.children}
-        </CardView>
-      );
-    } else if (this.props.lightGreen) {
-      return (
-        <CardView lightGreen>
-            {this.props.children}
-        </CardView>
-      );
-    } else if (this.props.yellow) {
-      return (
-        <CardView yellow>
-          {this.props.children}
-        </CardView>
-      );
-    }
+     
     return (
-      <CardView pink>
+      <CardView {...this.props}>
         {this.props.children}
       </CardView>
     );

@@ -36,7 +36,7 @@ const Image = styled.img`
   }
 `;
 
-export class WebServiceCard extends React.Component {
+export class WritingCard extends React.Component {
 
 
   render() {
