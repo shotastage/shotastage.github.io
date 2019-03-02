@@ -11,6 +11,12 @@ const CardHeading = styled.h1`
 `;
 
 
+const Description = styled.p`
+  color: #fff;
+  margin-left: 1em;
+`;
+
+
 
 export class WebServiceCard extends React.Component {
 
@@ -20,8 +26,8 @@ export class WebServiceCard extends React.Component {
     return (
         <TileCard>
           <CardHeading>{this.props.title}</CardHeading>
-          <p>TJHIS SHISHI SHISH SI SHIHSI SIHIS</p>
-          <SHButton link="https://pinna-map.herokuapp.com" otherTab>GO TO PAGE</SHButton>
+          <Description>{this.props.description}</Description>
+          <SHButton link={this.props.linkURL} otherTab>GO TO PAGE</SHButton>
         </TileCard>
     );
   }

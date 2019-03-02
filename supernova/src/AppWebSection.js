@@ -16,7 +16,20 @@ export class AppWebSection extends React.Component {
             </Row>
             <Row>
                 <Col>
-                    <WebServiceCard title="PINNA"/>
+                    <WebServiceCard
+                        title="PINNA"
+                        description="PINNA is musical & geolocational web application."
+                        linkURL="https://pinna-map.herokuapp.com"
+                    />
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <WebServiceCard
+                        title="Other Works"
+                        description="PINNA is musical & geolocational web application."
+                        linkURL="https://google.co.jp"
+                    />
                 </Col>
             </Row>
         </div>

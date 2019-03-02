@@ -8,6 +8,7 @@ const CardView = styled.div`
   ${props => getTileColor(props)}
   width: 100%;
   height: 400px;
+  margin-top: 1.5em;
 
   h1 {
     color: #fff;
@@ -21,7 +22,7 @@ const CardView = styled.div`
 const getTileColor = props => {
   if (props.pink) {
     return `
-      background: #F62459;
+      background: #ff75b3;
     `
   }
 
