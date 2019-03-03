@@ -4,7 +4,7 @@ import { Row, Col } from 'react-bootstrap';
 import { SectionHeading } from './Components/SectionHeading';
 import { QiitaCard } from './Components/QiitaCard';
 import { WritingCard } from './Components/WrintingCard';
-import { SHButton } from './Components/Buttons';
+import { QiitaCardButton } from './Components/Buttons';
 
 
 
@@ -19,7 +19,7 @@ const Description = styled.p`
   letter-spacing: 1px;
   width: 90%;
   margin-left: 1em;
-  color: #fff;
+  color: #333;
 `;
 
 
@@ -48,7 +48,7 @@ export class QiitaWritingCard extends React.Component {
       <CardHeading>{this.props.title}</CardHeading>
       <Description>{this.props.description}</Description>
       <Image src={this.props.imageURL} />
-      <SHButton link={this.props.linkURL} black otherTab>GO TO PAGE</SHButton>
+      <QiitaCardButton link={this.props.linkURL} black otherTab>GO TO PAGE</QiitaCardButton>
     </QiitaCard>
     );
   }
@@ -68,21 +68,21 @@ export class WritingSection extends React.Component {
               <Col>
                 <WritingCard green
                   title="Note"
-                  description=""
+                  description="かなり抽象的な話題を真面目に語っています."
                   linkURL="https://note.mu/shotastage/"
                 />
               </Col>
               <Col>
-                <WritingCard black
+                <WritingCard tumblrBlack
                   title="Tumblr"
-                  description=""
-                  linkURL="https://pinna-map.herokuapp.com"
+                  description="色々な事を徒然に語っています."
+                  linkURL="https://www.tumblr.com/blog/shotastage"
                 />
               </Col>
               <Col>
                 <QiitaWritingCard
                   title="Qiita"
-                  description=""
+                  description="プログラミングに関する技術に関して投稿しています. This blog is written in Japanese."
                   linkURL="https://qiita.com/shotastage"
                 />
               </Col>

@@ -40,8 +40,12 @@ const getTileColor = props => {
     return "#282828";
   }
 
+  if (props.tumblrBlack) {
+    return "#001835";
+  }
+
   if (props.purple) {
-    return "#d677ff";
+    return "#9d7cc1";
   }
 
   if (props.white) {

@@ -11,6 +11,12 @@ export class AppWebSection extends React.Component {
 
     const pinnaDescription = `
     PINNA is musical & geolocational web application. You can share your listening or watching on the Map.
+    Currently, PINNA is going to be remade as an native App that we can be impressed more efficiently and seamlessly.
+    `;
+
+
+    const githubDescription = `
+    Many open-sourced software are available on @shotastage Github.
     `;
 
     return (
@@ -34,7 +40,7 @@ export class AppWebSection extends React.Component {
                 <Col>
                     <WebServiceCard purple
                         title="Deploy to Heroku"
-                        description="Mini web apps that can deploy to heroku."
+                        description="Mini web apps collections that can deploy to Heroku and run on your own environment."
                         linkURL="https://google.co.jp"
                     />
                 </Col>
@@ -42,7 +48,7 @@ export class AppWebSection extends React.Component {
                 <Col>
                     <WebServiceCard black
                         title="Github"
-                        description="Many open-sourced software are available on @shotastage Github."
+                        description={githubDescription}
                         linkURL="https://github.com/shotastage/"
                     />
                 </Col>
