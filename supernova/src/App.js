@@ -28,18 +28,8 @@ class App extends React.Component {
             <Col>
               <Avator />
             </Col>
-          </Row>
-          <Row>
-            <Col>
-              <SectionHeading>Instagram</SectionHeading>
-              <InstagramFrame/>
-            </Col>
-          </Row>
-          <Row>
-            <Col>
-              <SectionHeading/>
-            </Col>
-          </Row>
+          </Row>          
+
           <AppWebSection/>
           <WritingSection/>
 

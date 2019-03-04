@@ -66,7 +66,7 @@ export class WritingSection extends React.Component {
             </Row>
             <Row>
               <Col>
-                <WritingCard green
+                <WritingCard noteGreen
                   title="Note"
                   description="かなり抽象的な話題を真面目に語っています."
                   linkURL="https://note.mu/shotastage/"

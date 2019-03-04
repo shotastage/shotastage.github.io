@@ -32,6 +32,10 @@ const getTileColor = props => {
     return "#45ff28";
   }
 
+  if (props.noteGreen) {
+    return "#41c9b4";
+  }
+
   if (props.yellow) {
     return "#FFB94E";
   }
