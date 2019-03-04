@@ -4,11 +4,10 @@ import { MyName } from './Components/MyName';
 import { FooterCopyright } from './Components/FooterCopyright';
 import { Avator } from './Components/Avatar'
 import { Navigation } from './Components/Navigation';
-import { InstagramFrame } from './Components/InstagramFrame';
-import { SectionHeading } from './Components/SectionHeading';
 
 import { AppWebSection } from './AppWebSection';
 import { WritingSection } from './WritingSection';
+import { SocialSection } from './SocialSection';
 import { Footer } from './Footer'
 import './App.scss';
 
@@ -32,6 +31,7 @@ class App extends React.Component {
 
           <AppWebSection/>
           <WritingSection/>
+          <SocialSection/>
 
           <Row>
             <Col>

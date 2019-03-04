@@ -55,6 +55,14 @@ const getTileColor = props => {
   if (props.white) {
     return "#fff";
   }
+  
+  if (props.twitter) {
+    return "#1ca1f2";
+  }
+
+  if (props.facebook) {
+    return "#4267b2";
+  }
 
   return "#ff3d3d";
 }
