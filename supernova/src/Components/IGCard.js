@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { SHButton } from './Buttons';
+import { IGCardButton } from './Buttons';
 
 
 
@@ -33,7 +33,7 @@ const Description = styled.p`
   letter-spacing: 1px;
   width: 90%;
   margin-left: 1em;
-  color: #fff;
+  color: #333;
 `;
 
 
@@ -60,7 +60,7 @@ export class IGSocialCard extends React.Component {
       <IGCard {...this.props}>
         <CardHeading>{this.props.title}</CardHeading>
         <Description>{this.props.description}</Description>
-        <SHButton link={this.props.linkURL} black otherTab>GO TO PAGE</SHButton>
+        <IGCardButton link={this.props.linkURL} black otherTab>GO TO PAGE</IGCardButton>
       </IGCard>
     );
   }

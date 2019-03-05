@@ -18,7 +18,7 @@ export class SocialSection extends React.Component {
             </Row>
             <Row>
                 <Col>
-                    <IGSocialCard instagram
+                    <IGSocialCard
                         title="Instagram"
                         description="Other featured works that I've created."
                         linkURL="https://instagram.com/shotastage/"
