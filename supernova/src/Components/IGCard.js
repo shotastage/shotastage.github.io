@@ -24,6 +24,7 @@ const CardView = styled.div`
 
 const CardHeading = styled.h1`
   margin-bottom: 0.1em;
+  letter-spacing: 0.01em !important;
 `;
 
 

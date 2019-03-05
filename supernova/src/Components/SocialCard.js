@@ -6,6 +6,7 @@ import { TileCard } from './TileCard';
 
 const CardHeading = styled.h1`
   margin-bottom: 0.1em;
+  letter-spacing: 0.02em !important;
 `;
 
 

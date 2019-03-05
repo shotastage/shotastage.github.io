@@ -73,31 +73,15 @@ export class SHButton extends React.Component {
 
 
 
-const QiitaButton = styled.a`
-    position: absolute;
-    background: transparent;
-    color: #333;
-    font-weight: bold;
-    font-size: 1.1rem;
-    text-align: center;
-    text-decoration: none !important;
-    padding: 0.7em;
+const QiitaButton = styled(BaseButton)`
+    color: #333 !important;
     border: 0.25em solid #333;
-    margin: 1.4em;
-    bottom: 0em;
-
-    // Animation
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-	  transition: all .3s;
 
     :hover {
-      color: #fff;
-      letter-spacing: 0.1em;
+      color: #fff !important;
       background: #333;
     }
 `;
-
 
 
 export class QiitaCardButton extends React.Component {
@@ -115,30 +99,14 @@ export class QiitaCardButton extends React.Component {
 
 
 
+const IGButton = styled(QiitaButton)`
+  color: #ca0387 !important;
+  border: 0.25em solid #d70463;
 
-const IGButton = styled.a`
-    position: absolute;
-    background: transparent;
-    color: #d70463;
-    font-weight: bold;
-    font-size: 1.1rem;
-    text-align: center;
-    text-decoration: none !important;
-    padding: 0.7em;
-    border: 0.25em solid #d70463;
-    margin: 1.4em;
-    bottom: 0em;
-
-    // Animation
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-	  transition: all .3s;
-
-    :hover {
-      color: #fff;
-      letter-spacing: 0.1em;
-      background: #d70463;
-    }
+  :hover {
+    color: #fff;
+    background: #d70463;
+  }
 `;
 
 
