@@ -48,6 +48,10 @@ const getTileColor = props => {
     return "#001835";
   }
 
+  if (props.hatena) {
+    return "#b4b7ba";
+  }
+
   if (props.purple) {
     return "#9d7cc1";
   }

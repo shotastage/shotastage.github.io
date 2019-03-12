@@ -87,6 +87,15 @@ export class WritingSection extends React.Component {
                 />
               </Col>
             </Row>
+            <Row>
+              <Col lg="4">
+                <WritingCard hatena
+                  title="SHOTAのDev.log();"
+                  description="開発日記です。"
+                  linkURL="https://shdev.hatenablog.com/"
+                />
+              </Col>
+            </Row>
         </div>
     );
   }
