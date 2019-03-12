@@ -9,15 +9,38 @@ import { AppWebSection } from './AppWebSection';
 import { WritingSection } from './WritingSection';
 import { SocialSection } from './SocialSection';
 import { Footer } from './Footer'
+import { Bootstrap } from './Themes/Bootstrap';
+
 import './App.scss';
 
 
 
 class App extends React.Component {
 
+  constructor(props) {
+    super(props);
+    this.state = {
+      count: "#fff"
+    }
+
+    this.changeColor();
+  }
+
+  changeColor() {
+
+    let current = new Date().getHours();
+
+    if (current >= 19) {
+      this.setState({
+      });
+    }
+  }
+
+
   render() {
     return (
-      <div>
+      <React.Fragment>
+        <Bootstrap />
         <Navigation/>
         <Container>
           <Row>
@@ -41,7 +64,7 @@ class App extends React.Component {
             </Col>
           </Row>
         </Container>
-      </div>
+      </React.Fragment>
     );
   }
 }
