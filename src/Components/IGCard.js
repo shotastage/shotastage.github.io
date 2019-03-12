@@ -27,14 +27,14 @@ const CardHeading = styled.h1`
   letter-spacing: 0.01em !important;
 `;
 
+const ImageWrap = styled.div`
+  text-align: center;
+  width: 100%;
+  height: auto;
+`;
 
-const Description = styled.p`
-  font-weight: 600;
-  font-size: 1.3rem;
-  letter-spacing: 1px;
-  width: 90%;
-  margin-left: 1em;
-  color: #333;
+const Image = styled.img`
+  width: 40%;
 `;
 
 
@@ -60,7 +60,9 @@ export class IGSocialCard extends React.Component {
     return (
       <IGCard {...this.props}>
         <CardHeading>{this.props.title}</CardHeading>
-        <Description>{this.props.description}</Description>
+        <ImageWrap>
+          <Image src={this.props.imageURL} /> 
+        </ImageWrap>
         <IGCardButton link={this.props.linkURL} black otherTab>GO TO PAGE</IGCardButton>
       </IGCard>
     );
