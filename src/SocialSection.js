@@ -21,7 +21,7 @@ export class SocialSection extends React.Component {
                     <IGSocialCard
                         title="Instagram"
                         imageURL={instagramImage}
-                        description="Other featured works that I've created."
+                        description="Instagram Account"
                         linkURL="https://instagram.com/shotastage/"
                     />
                 </Col>
@@ -29,7 +29,7 @@ export class SocialSection extends React.Component {
                 <Col>
                     <SocialCard twitter
                         title="Twitter"
-                        description="Other featured works that I've created."
+                        description="My Twitter profile."
                         linkURL="https://twitter.com/shotastage/"
                     />
                 </Col>
@@ -37,7 +37,7 @@ export class SocialSection extends React.Component {
                 <Col>
                     <SocialCard facebook
                         title="Facebook"
-                        description="Other featured works that I've created."
+                        description="My Facebook profile."
                         linkURL="https://facebook.com/shotastage/"
                     />
                 </Col>
