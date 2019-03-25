@@ -54,10 +54,10 @@ export class AppWebSection extends React.Component {
                 </Col>
 
                 <Col>
-                    <WebServiceCard green
+                    <WebServiceCard resume
                         title="Other Works"
                         description="Other featured works that I've created."
-                        linkURL="https://github.com/shotastage"
+                        linkURL="https://www.resume.id/shotastage"
                     />
                 </Col>
             </Row>
