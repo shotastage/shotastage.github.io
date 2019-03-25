@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { SHButton } from './Buttons';
+import { SHButton } from '../Buttons';
 import { TileCard } from './TileCard';
 
 

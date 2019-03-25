@@ -2,8 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import { Row, Col } from 'react-bootstrap';
 import { SectionHeading } from './Components/SectionHeading';
-import { QiitaCard } from './Components/QiitaCard';
-import { WritingCard } from './Components/WrintingCard';
+import { QiitaCard } from './Components/Cards/QiitaCard';
+import { WritingCard } from './Components/Cards/WrintingCard';
 import { QiitaCardButton } from './Components/Buttons';
 
 

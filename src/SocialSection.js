@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import { SocialCard } from './Components/SocialCard';
-import { IGSocialCard } from './Components/IGCard';
+import { SocialCard } from './Components/Cards/SocialCard';
+import { IGSocialCard } from './Components/Cards/IGCard';
 import { SectionHeading } from './Components/SectionHeading';
 import instagramImage from './images/IGLogo.png';
 

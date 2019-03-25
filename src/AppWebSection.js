@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import { WebServiceCard } from './Components/WebServiceCard';
+import { WebServiceCard } from './Components/Cards/WebServiceCard';
 import { SectionHeading } from './Components/SectionHeading';
 import pinnaWritingImage from './images/pinna_writing.png';
 
