@@ -92,30 +92,3 @@ export class QiitaCardButton extends React.Component {
     );
   }
 }
-
-
-
-
-
-
-
-const IGButton = styled(QiitaButton)`
-  color: #ca0387 !important;
-  border: 0.25em solid #d70463;
-
-  :hover {
-    color: #fff;
-    background: #d70463;
-  }
-`;
-
-
-
-export class IGCardButton extends React.Component {
-
-  render() {
-    return (
-      <IGButton href={this.props.link} target="_blank">{this.props.children}</IGButton>
-    );
-  }
-}

@@ -26,6 +26,11 @@ class App extends React.Component {
     this.changeColor();
   }
 
+  // Life cycle
+  componentDidMount() {
+    alert("This web site is now under development!");
+  }
+
   changeColor() {
 
     let current = new Date().getHours();
@@ -35,7 +40,6 @@ class App extends React.Component {
       });
     }
   }
-
 
   render() {
     return (

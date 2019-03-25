@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { SHButton } from '../Buttons';
 
 
 const CardView = styled.div`
@@ -24,18 +23,6 @@ const CardView = styled.div`
 
 const getTileColor = props => {
 
-  if (props.green) {
-    return "#1ae097";
-  }
-
-  if (props.black) {
-    return "#282828";
-  }
-
-  if (props.purple) {
-    return "#9d7cc1";
-  }
-
   if (props.white) {
     return "#fff";
   }
@@ -51,9 +38,6 @@ const getTileColor = props => {
   return "#ff3d3d";
 }
 
-
-
-
 const getTextColor = props => {
   if (props.white) {
     return "#333";
@@ -66,24 +50,10 @@ const getTextColor = props => {
   return "#fff";
 }
 
-
-
-
 const CardHeading = styled.h1`
   margin-bottom: 0.1em;
   letter-spacing: 0.02em !important;
 `;
-
-
-const Description = styled.p`
-  font-weight: 600;
-  font-size: 1.3rem;
-  letter-spacing: 1px;
-  width: 90%;
-  margin-left: 1em;
-  color: #fff;
-`;
-
 
 const Image = styled.img`
   position: absolute;
@@ -104,15 +74,14 @@ const Image = styled.img`
 
 export class SocialCard extends React.Component {
 
+  jump() {
+  }
 
   render() {
-
     return (
-      <CardView {...this.props}>
+      <CardView {...this.props} onClick={this.jump()}>
         <CardHeading>{this.props.title}</CardHeading>
-        <Description>{this.props.description}</Description>
         <Image src={this.props.imageURL} />
-        <SHButton link={this.props.linkURL} black otherTab>GO TO PAGE</SHButton>
       </CardView>
     );
   }

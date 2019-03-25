@@ -1,7 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { IGCardButton } from '../Buttons';
-
 
 
 const CardView = styled.div`
@@ -64,7 +62,6 @@ export class IGSocialCard extends React.Component {
         <ImageWrap>
           <Image src={this.props.imageURL} /> 
         </ImageWrap>
-        <IGCardButton link={this.props.linkURL} black otherTab>GO TO PAGE</IGCardButton>
       </IGCard>
     );
   }
