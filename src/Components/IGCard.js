@@ -8,10 +8,11 @@ const CardView = styled.div`
   display: block;
   background: #fff;
   width: 100%;
-  height: 400px;
+  height: 200px;
   margin-top: 1.5em;
   border: solid 1px #000;
-
+  border-radius: 20px;
+  
   h1 {
     color: #333 !important;
     font-weight: 700;
