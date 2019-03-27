@@ -8,7 +8,8 @@ import { Navigation } from './Components/Navigation';
 import { AppWebSection } from './AppWebSection';
 import { WritingSection } from './WritingSection';
 import { SocialSection } from './SocialSection';
-import { Footer } from './Footer'
+import { Footer } from './Footer';
+import { Initial } from './Initial';
 import { Bootstrap } from './Themes/Bootstrap';
 
 import './App.scss';
@@ -26,11 +27,6 @@ class App extends React.Component {
     this.changeColor();
   }
 
-  // Life cycle
-  componentDidMount() {
-    alert("This web site is now under development!");
-  }
-
   changeColor() {
 
     let current = new Date().getHours();
@@ -44,7 +40,8 @@ class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Bootstrap />
+        <Initial/>
+        <Bootstrap/>
         <Navigation/>
         <Container>
           <Row>
