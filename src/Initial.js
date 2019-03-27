@@ -30,17 +30,6 @@ export class Initial extends React.Component {
     notificationSetup() {
         if ("Notification" in window) {
             Notification.requestPermission()
-                .then((permission) => {
-                    if (permission === 'granted') {
-                        // Grant
-                        console.log("Your browser accepted to send a notification.")
-                    } else if (permission === 'denied') {
-                        // Deny
-                        console.log("Your browser denied to send a notification.")
-                    } else if (permission === 'default') {
-                        // Ignore
-                    }
-                });
         }
     }
 
@@ -59,8 +48,8 @@ export class Initial extends React.Component {
 
     componentDidMount() {
         this.sslRedirect();
-        //this.notificationSetup();
-        //this.sendWarningNotification();
+        this.notificationSetup();
+        this.sendWarningNotification();
     }
 
     render() {
