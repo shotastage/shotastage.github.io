@@ -30,35 +30,37 @@ export class Initial extends React.Component {
     notificationSetup() {
         if ("Notification" in window) {
             Notification.requestPermission()
-            .then((permission) => {
-                if (permission === 'granted') {
-                    // Grant
-                    console.log("Your browser accepted to send a notification.")
-                } else if (permission === 'denied') {
-                    // Deny
-                    console.log("Your browser denied to send a notification.")
-                } else if (permission === 'default') {
-                    // Ignore
-                }
-            });
+                .then((permission) => {
+                    if (permission === 'granted') {
+                        // Grant
+                        console.log("Your browser accepted to send a notification.")
+                    } else if (permission === 'denied') {
+                        // Deny
+                        console.log("Your browser denied to send a notification.")
+                    } else if (permission === 'default') {
+                        // Ignore
+                    }
+                });
         }
     }
 
     sendWarningNotification() {
-        let firstJoined = new Notification(
-            "I'm SHOTA!",
-            {
-                body: 'This web page is now under construction!'
-            }
-          );
+        if ("Notification" in window) {
+            let firstJoined = new Notification(
+                "I'm SHOTA!",
+                {
+                    body: 'This web page is now under construction!'
+                }
+            );
 
-        setTimeout(firstJoined.close.bind(firstJoined), 4000);
+            setTimeout(firstJoined.close.bind(firstJoined), 4000);
+        }
     }
 
     componentDidMount() {
         this.sslRedirect();
-        this.notificationSetup();
-        this.sendWarningNotification();
+        //this.notificationSetup();
+        //this.sendWarningNotification();
     }
 
     render() {
