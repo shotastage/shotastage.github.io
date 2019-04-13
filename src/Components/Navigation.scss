@@ -2,11 +2,33 @@
     background: #fff !important;
 }
 
+
 .Navbar_Toggle {
     border: none;
 
     span {
         color: #333333;
         border-color: black;
+    }
+}
+
+
+@media (prefers-color-scheme: dark) {
+    .navbar {
+        background: #1A1A1A !important;
+    }
+
+    .navbar * {
+        color: #fff !important;
+    }
+
+
+    .Navbar_Toggle {
+        border: none;
+
+        span {
+            color: white !important;
+            border-color: white !important;
+        }
     }
 }

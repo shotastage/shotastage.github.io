@@ -9,6 +9,11 @@ const HeadingView = styled.h1`
   margin-bottom: 0.4em;  
   letter-spacing: 0.07em; 
   background: #fff;
+
+
+  @media (prefers-color-scheme: dark) {
+    background: #1A1A1A;
+  }
 `;
 
 

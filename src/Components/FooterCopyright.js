@@ -13,6 +13,11 @@ const CopyrightText = styled.p`
   @media screen and (max-width: 480px) {
     font-size: 0.7rem;
   }
+
+  @media (prefers-color-scheme: dark) {
+    color: white;
+    background: #1A1A1A;
+  }
 `;
 
 
