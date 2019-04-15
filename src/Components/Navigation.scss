@@ -1,8 +1,3 @@
-.navbar {
-    background: #fff !important;
-}
-
-
 .Navbar_Toggle {
     border: none;
 
@@ -14,15 +9,6 @@
 
 
 @media (prefers-color-scheme: dark) {
-    .navbar {
-        background: #1A1A1A !important;
-    }
-
-    .navbar * {
-        color: #fff !important;
-    }
-
-
     .Navbar_Toggle {
         border: none;
 
