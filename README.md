@@ -1,4 +1,8 @@
 # shotastge web site
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c8574436-62bb-4169-98a1-3ae3b70fc80b/deploy-status)](https://app.netlify.com/sites/shotastage/deploys)
+
+
 Official web site of shotastage.
 
 
