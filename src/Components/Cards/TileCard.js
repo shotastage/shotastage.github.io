@@ -72,6 +72,10 @@ const getTileColor = props => {
     return "#66b6ff";
   }
 
+  if (props.fc1b54) {
+    return "#fc1b54";
+  }
+
   return "#ff3d3d";
 }
 

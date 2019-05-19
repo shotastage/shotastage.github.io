@@ -95,6 +95,13 @@ export class WritingSection extends React.Component {
                   linkURL="https://shdev.hatenablog.com/"
                 />
               </Col>
+              <Col lg="4">
+                <WritingCard fc1b54
+                  title="TIPSTOCK!"
+                  description="ITのTIPSをお届け"
+                  linkURL="https://tipstock.net/"
+                />
+              </Col>
             </Row>
         </div>
     );
