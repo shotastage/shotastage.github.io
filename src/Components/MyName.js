@@ -4,6 +4,10 @@ import styled from 'styled-components';
 
 const NameHeaderBackground = styled.div`
   background: #9AE0FF;
+
+  @media screen and (max-width: 480px) {
+    width: 100%;
+  }
 `;
 
 const NameHeader = styled.h1`
@@ -14,7 +18,9 @@ const NameHeader = styled.h1`
   margin: 20px;
 
   @media screen and (max-width: 480px) {
-    font-size: 5rem;
+    font-size: 4.2rem;
+    width: 100%;
+    overflow: hidden;
   }
 `;
 
