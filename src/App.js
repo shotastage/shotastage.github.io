@@ -51,7 +51,7 @@ class App extends React.Component {
             <Col>
               <Avator />
             </Col>
-          </Row>          
+          </Row>
 
           <AppWebSection/>
           <WritingSection/>
