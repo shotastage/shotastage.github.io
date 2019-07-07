@@ -17,6 +17,17 @@ const NameHeader = styled.h1`
   color: #FF4141;
   margin: 20px;
 
+  @media screen and (max-width: 1199px) {
+    font-size: 8rem;
+  }
+
+  @media screen and (max-width: 991px) {
+    font-size: 6.5rem;
+  }
+
+  @media screen and (max-width: 767px) {
+    font-size: 4.7rem;
+  }
   @media screen and (max-width: 480px) {
     font-size: 4.2rem;
     width: 100%;

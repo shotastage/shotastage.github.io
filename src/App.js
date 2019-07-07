@@ -45,10 +45,10 @@ class App extends React.Component {
         <Navigation/>
         <Container>
           <Row>
-            <Col>
+            <Col sm={8}>
               <MyName />
             </Col>
-            <Col>
+            <Col sm={4}>
               <Avator />
             </Col>
           </Row>
