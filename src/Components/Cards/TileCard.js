@@ -13,7 +13,7 @@ const CardView = styled.div`
   h1 {
     color: ${props => getTextColor(props)};
     font-weight: 700;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.1em;
     padding: 0.5em;
   }
 `;
@@ -59,7 +59,7 @@ const getTileColor = props => {
   if (props.white) {
     return "#fff";
   }
-  
+
   if (props.twitter) {
     return "#1ca1f2";
   }
@@ -97,7 +97,7 @@ const getTextColor = props => {
 export class TileCard extends React.Component {
 
   render() {
-     
+
     return (
       <CardView {...this.props}>
         {this.props.children}

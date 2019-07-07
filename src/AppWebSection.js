@@ -38,10 +38,10 @@ export class AppWebSection extends React.Component {
             </Row>
             <Row>
                 <Col>
-                    <WebServiceCard purple
-                        title="Deploy to Heroku"
-                        description="Mini web apps collections that can deploy to Heroku and run on your own environment."
-                        linkURL="https://github.com/shotastage/"
+                    <WebServiceCard green
+                        title="lin9.me"
+                        description="lin9.me is URL shorten service. It can shorten and count number of access and be provided Chrome extension."
+                        linkURL="https://lin9.me/"
                     />
                 </Col>
 
