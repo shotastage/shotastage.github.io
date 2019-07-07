@@ -10,8 +10,8 @@ export class AppWebSection extends React.Component {
   render() {
 
     const pinnaDescription = `
-    PINNA is musical & geolocational web application. You can share your listening or watching on the Map.
-    PINNA will be redeveloped as an native App more interactive and creative.
+    Bhaa is musical & geolocational web application. You can share your listening or watching on the Map.
+    Bhaa will be redeveloped as an native App more interactive and creative.
     `;
 
 
@@ -22,14 +22,14 @@ export class AppWebSection extends React.Component {
     return (
         <div>
             <Row>
-                <Col> 
+                <Col>
                     <SectionHeading>Apps & Web</SectionHeading>
                 </Col>
             </Row>
             <Row>
                 <Col>
                     <WebServiceCard
-                        title="PINNA"
+                        title="Bhaa"
                         description={pinnaDescription}
                         imageURL={pinnaWritingImage}
                         linkURL="https://pinna-map.herokuapp.com"

@@ -12,7 +12,7 @@ export class SocialSection extends React.Component {
     return (
         <div>
             <Row>
-                <Col> 
+                <Col>
                     <SectionHeading>Social</SectionHeading>
                 </Col>
             </Row>
