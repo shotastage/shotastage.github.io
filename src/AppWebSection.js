@@ -32,7 +32,7 @@ export class AppWebSection extends React.Component {
                         title="Bhaa"
                         description={pinnaDescription}
                         imageURL={pinnaWritingImage}
-                        linkURL="https://pinna-map.herokuapp.com"
+                        linkURL="https://lin9.me/QwNUG"
                     />
                 </Col>
             </Row>

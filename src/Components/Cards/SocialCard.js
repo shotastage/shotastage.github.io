@@ -58,33 +58,33 @@ const CardHeading = styled.h1`
   letter-spacing: 0.02em !important;
 `;
 
+const ImageWrap = styled.div`
+  text-align: center;
+  height: auto;
+`;
+
 const Image = styled.img`
-  position: absolute;
-  width: 70%;
-  right: 2em;
-  bottom: 1em;
-
-  @media screen and (max-width: 767px) {
-    width: 55%;
-    bottom: 2rem;
-  }
-
-  @media screen and (max-width: 480px) {
-    width: 55%;
-    bottom: 2rem;
-  }
+  width: 60px;
+  bottom: 30px;
 `;
 
 export class SocialCard extends React.Component {
 
-  jump() {
+  constructor(props) {
+    super(props);
+  }
+
+  jump = () => {
+    window.location.href = this.props.linkURL
   }
 
   render() {
     return (
-      <CardView {...this.props} onClick={this.jump()}>
+      <CardView {...this.props} onClick={this.jump}>
         <CardHeading>{this.props.title}</CardHeading>
-        <Image src={this.props.imageURL} />
+        <ImageWrap>
+          <Image src={this.props.imageURL} />
+        </ImageWrap>
       </CardView>
     );
   }

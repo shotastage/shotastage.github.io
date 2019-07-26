@@ -25,7 +25,7 @@ const getTileColor = props => {
   }
 
   if (props.green) {
-    return "#1ae097";
+    return "#15d6b9";
   }
 
   if (props.qiitaGreen) {
