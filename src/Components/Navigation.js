@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import {
     Navbar, Nav, NavDropdown
 } from 'react-bootstrap';
-import logo from '../logo.svg';
+import logo from '../images/brand.svg';
 import './Navigation.scss';
 
 
