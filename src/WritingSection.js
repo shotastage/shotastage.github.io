@@ -60,26 +60,26 @@ export class WritingSection extends React.Component {
     return (
         <div>
             <Row>
-              <Col> 
+              <Col>
                 <SectionHeading>Writings</SectionHeading>
               </Col>
             </Row>
             <Row>
-              <Col>
+              <Col lg="4">
                 <WritingCard noteGreen
                   title="Note"
                   description="かなり抽象的な話題を真面目に語っています."
                   linkURL="https://note.mu/shotastage/"
                 />
               </Col>
-              <Col>
+              <Col lg="4">
                 <WritingCard tumblrBlack
                   title="Tumblr"
                   description="色々な事を徒然に語っています."
                   linkURL="https://www.tumblr.com/blog/shotastage"
                 />
               </Col>
-              <Col>
+              <Col lg="4">
                 <QiitaWritingCard
                   title="Qiita"
                   description="プログラミングに関する技術に関して投稿しています. This blog is written in Japanese."

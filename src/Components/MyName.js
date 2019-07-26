@@ -7,6 +7,7 @@ const NameHeaderBackground = styled.div`
 
   @media screen and (max-width: 480px) {
     width: 100%;
+    background: transparent;
   }
 `;
 
@@ -30,8 +31,10 @@ const NameHeader = styled.h1`
   }
   @media screen and (max-width: 480px) {
     font-size: 4.2rem;
-    width: 100%;
-    overflow: hidden;
+    background: #9AE0FF;
+    padding-left: 10px;
+    margin-right: 20px;
+    margin-left: 0;
   }
 `;
 

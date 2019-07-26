@@ -5,6 +5,10 @@ import styled from 'styled-components';
 const AvatarWrap = styled.div`
   max-width: 50%;
   margin: 0 auto;
+
+  @media screen and (max-width: 480px) {
+    text-align: center;
+  }
 `;
 
 const AvatarImg = styled.img`
@@ -14,8 +18,10 @@ const AvatarImg = styled.img`
   margin: 20px;
 
   @media screen and (max-width: 480px) {
-    width: 220px;
-    height: 220px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 30px;
   }
 `;
 
