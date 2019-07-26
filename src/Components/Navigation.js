@@ -46,7 +46,6 @@ export class Navigation extends React.Component {
                     className="d-inline-block align-top"
                 />
             </Navbar.Brand>
-            <Navbar.Toggle className="Navbar_Toggle" aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                     <SHNavLink href="#home">Home</SHNavLink>
