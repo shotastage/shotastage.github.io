@@ -41,8 +41,8 @@ export class Navigation extends React.Component {
                 <img
                     alt=""
                     src={logo}
-                    width="30"
-                    height="30"
+                    width="50"
+                    height="50"
                     className="d-inline-block align-top"
                 />
             </Navbar.Brand>

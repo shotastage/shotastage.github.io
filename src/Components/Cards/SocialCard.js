@@ -11,6 +11,9 @@ const CardView = styled.div`
   margin-top: 1.5em;
   box-shadow: 0 0 8px #afafaf;
 
+  @media (prefers-color-scheme: dark) {
+    box-shadow: none;
+  }
 
   h1 {
     color: ${props => getTextColor(props)};
@@ -26,7 +29,7 @@ const getTileColor = props => {
   if (props.white) {
     return "#fff";
   }
-  
+
   if (props.twitter) {
     return "#1ca1f2";
   }
