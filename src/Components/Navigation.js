@@ -48,8 +48,10 @@ export class Navigation extends React.Component {
             </Navbar.Brand>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <SHNavLink href="#home">Home</SHNavLink>
-                    <SHNavLink href="#link">SNS Link</SHNavLink>
+                    <SHNavLink href="#home">( Home,</SHNavLink>
+                    <SHNavLink href="#link"> SNS Link,</SHNavLink>
+                    <SHNavLink href="#link"> resume.id );</SHNavLink>
+
                 </Nav>
             </Navbar.Collapse>
         </SHNavbar>

@@ -40,7 +40,7 @@ export class AppWebSection extends React.Component {
                 <Col>
                     <WebServiceCard green
                         title="lin9.me"
-                        description="lin9.me is URL shorten service. It can shorten and count number of access and be provided Chrome extension."
+                        description="lin9.meはURL短縮サービスです. QRコードも同時に作れます. もともと開発中のリンク管理機能でしたが, 便利なので切り出して使えるようにしました."
                         linkURL="https://lin9.me/"
                     />
                 </Col>
