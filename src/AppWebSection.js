@@ -55,8 +55,8 @@ export class AppWebSection extends React.Component {
 
                 <Col>
                     <WebServiceCard resume
-                        title="Other Works"
-                        description="Other featured works that I've created."
+                        title="My Resume"
+                        description="作った作品や勉強したSkillなどはResumeで発信しています."
                         linkURL="https://www.resume.id/shotastage"
                     />
                 </Col>

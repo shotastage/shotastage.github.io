@@ -4,15 +4,16 @@ import styled from 'styled-components';
 
 const CardView = styled.div`
   display: block;
-  background: #fff;
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+
   width: 100%;
   height: 200px;
   margin-top: 1.5em;
   border: solid 1px #000;
   border-radius: 20px;
-  
+
   h1 {
-    color: #333 !important;
+    color: white;
     font-weight: 700;
     letter-spacing: 0.15em;
     padding: 0.5em;
@@ -33,14 +34,13 @@ const ImageWrap = styled.div`
 `;
 
 const Image = styled.img`
-  width: 40%;
+  width: 30%;
 `;
 
 
 export class IGCard extends React.Component {
 
   render() {
-     
     return (
       <CardView {...this.props}>
         {this.props.children}
@@ -60,7 +60,7 @@ export class IGSocialCard extends React.Component {
       <IGCard {...this.props}>
         <CardHeading>{this.props.title}</CardHeading>
         <ImageWrap>
-          <Image src={this.props.imageURL} /> 
+          <Image src={this.props.imageURL} />
         </ImageWrap>
       </IGCard>
     );

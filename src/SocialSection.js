@@ -3,7 +3,7 @@ import { Row, Col } from 'react-bootstrap';
 import { SocialCard } from './Components/Cards/SocialCard';
 import { IGSocialCard } from './Components/Cards/IGCard';
 import { SectionHeading } from './Components/SectionHeading';
-import instagramImage from './images/IGLogo.png';
+import instagramImage from './images/IGLogo.svg';
 
 export class SocialSection extends React.Component {
 

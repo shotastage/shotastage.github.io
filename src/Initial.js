@@ -7,13 +7,13 @@ export class Initial extends React.Component {
         let hostname = window.location.hostname;
 
         let localhostStrArr = ['localhost', '127.0.0.1'];
-        
+
         for (var i = 0; i < localhostStrArr.length; i++) {
             if (localhostStrArr[i] === hostname) {
                 return(true);
             }
         }
-        
+
         return false;
     }
 
@@ -24,7 +24,7 @@ export class Initial extends React.Component {
             if(loc.protocol === 'http:') {
                 loc.replace(loc.href.replace(/http:/, 'https:'));
             }
-        } 
+        }
     }
 
     notificationSetup() {
@@ -36,9 +36,9 @@ export class Initial extends React.Component {
     sendWarningNotification() {
         if ("Notification" in window) {
             let firstJoined = new Notification(
-                "I'm SHOTA!",
+                "Site notification",
                 {
-                    body: 'This web page is now under construction!'
+                    body: 'Dark mode theme is available. Try changing to dark mode on latest Firefox, Safari or Beta channel Chrome-based browser.'
                 }
             );
 
