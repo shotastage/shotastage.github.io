@@ -29,12 +29,12 @@ const CardHeading = styled.h1`
 
 const ImageWrap = styled.div`
   text-align: center;
-  width: 100%;
   height: auto;
 `;
 
 const Image = styled.img`
-  width: 30%;
+  width: 60px;
+  bottom: 30px;
 `;
 
 
