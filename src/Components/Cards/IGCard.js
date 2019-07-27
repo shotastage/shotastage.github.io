@@ -53,11 +53,19 @@ export class IGCard extends React.Component {
 
 export class IGSocialCard extends React.Component {
 
+  constructor(props) {
+    super(props);
+  }
+
+  jump = () => {
+    window.location.href = this.props.linkURL
+  }
+
 
   render() {
 
     return (
-      <IGCard {...this.props}>
+      <IGCard {...this.props} onClick={this.jump}>
         <CardHeading>{this.props.title}</CardHeading>
         <ImageWrap>
           <Image src={this.props.imageURL} />

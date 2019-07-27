@@ -37,7 +37,7 @@ export class AppWebSection extends React.Component {
                 </Col>
             </Row>
             <Row>
-                <Col>
+                <Col lg="4">
                     <WebServiceCard green
                         title="lin9.me"
                         description="lin9.meはURL短縮サービスです. QRコードも同時に作れます. もともと開発中のリンク管理機能でしたが, 便利なので切り出して使えるようにしました."
@@ -45,7 +45,7 @@ export class AppWebSection extends React.Component {
                     />
                 </Col>
 
-                <Col>
+                <Col lg="4">
                     <WebServiceCard black
                         title="Github"
                         description={githubDescription}
@@ -53,7 +53,7 @@ export class AppWebSection extends React.Component {
                     />
                 </Col>
 
-                <Col>
+                <Col lg="4">
                     <WebServiceCard resume
                         title="My Resume"
                         description="作った作品や勉強したSkillなどはResumeで発信しています."
