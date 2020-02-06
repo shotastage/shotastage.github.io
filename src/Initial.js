@@ -38,7 +38,7 @@ export class Initial extends React.Component {
             let firstJoined = new Notification(
                 "Site notification",
                 {
-                    body: 'Dark mode theme is available. Try changing to dark mode on latest Firefox, Safari or Beta channel Chrome-based browser.'
+                    body: 'Dark mode theme is available. Try changing to dark mode on latest Firefox, Safari or Chrome-based browser.'
                 }
             );
 
