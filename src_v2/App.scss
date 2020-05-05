@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url("./images/bg.svg");
+  background-repeat: repeat;
+  // background: #232323;
+  background-color: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-image: url("./images/bg-dark.svg");
+    background-repeat: repeat;
+    color: white;
+  }
+}
