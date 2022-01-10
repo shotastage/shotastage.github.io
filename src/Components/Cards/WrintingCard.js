@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { SHButton } from '../Buttons';
 import { TileCard } from './TileCard';
 
 
@@ -46,7 +45,6 @@ export class WritingCard extends React.Component {
         <CardHeading>{this.props.title}</CardHeading>
         <Description>{this.props.description}</Description>
         <Image src={this.props.imageURL} />
-        <SHButton link={this.props.linkURL} black otherTab>GO TO PAGE</SHButton>
       </TileCard>
     );
   }

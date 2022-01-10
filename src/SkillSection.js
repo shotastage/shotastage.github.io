@@ -48,7 +48,6 @@ export class QiitaWritingCard extends React.Component {
       <CardHeading>{this.props.title}</CardHeading>
       <Description>{this.props.description}</Description>
       <Image src={this.props.imageURL} />
-      <QiitaCardButton link={this.props.linkURL} black otherTab>GO TO PAGE</QiitaCardButton>
     </QiitaCard>
     );
   }

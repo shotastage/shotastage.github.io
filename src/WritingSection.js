@@ -4,14 +4,10 @@ import { Row, Col } from 'react-bootstrap';
 import { SectionHeading } from './Components/SectionHeading';
 import { QiitaCard } from './Components/Cards/QiitaCard';
 import { WritingCard } from './Components/Cards/WrintingCard';
-import { QiitaCardButton } from './Components/Buttons';
-
-
 
 const CardHeading = styled.h1`
   margin-bottom: 0.1em;
 `;
-
 
 const Description = styled.p`
   font-weight: 600;
@@ -48,7 +44,6 @@ export class QiitaWritingCard extends React.Component {
       <CardHeading>{this.props.title}</CardHeading>
       <Description>{this.props.description}</Description>
       <Image src={this.props.imageURL} />
-      <QiitaCardButton link={this.props.linkURL} black otherTab>GO TO PAGE</QiitaCardButton>
     </QiitaCard>
     );
   }
