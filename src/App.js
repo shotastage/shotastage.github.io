@@ -7,7 +7,6 @@ import { Navigation } from './Components/Navigation';
 
 import { AppWebSection } from './AppWebSection';
 import { WritingSection } from './WritingSection';
-import { SkillSection } from './SkillSection';
 import { SocialSection } from './SocialSection';
 import { Footer } from './Footer';
 import { Initial } from './Initial';

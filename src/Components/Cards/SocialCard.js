@@ -69,11 +69,6 @@ const Image = styled.img`
 `;
 
 export class SocialCard extends React.Component {
-
-  constructor(props) {
-    super(props);
-  }
-
   jump = () => {
     window.location.href = this.props.linkURL
   }
