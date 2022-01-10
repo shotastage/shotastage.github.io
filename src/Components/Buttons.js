@@ -21,7 +21,7 @@ const BaseButton = styled.a`
     -moz-transition: all .3s;
 	  transition: all .3s;
 
-  
+
     :hover {
       color: ${props => oppositeColor(props)} !important;
       letter-spacing: 0.1em;
@@ -30,7 +30,7 @@ const BaseButton = styled.a`
 `;
 
 
-const oppositeColor　= props => {
+const oppositeColor = props => {
   if (props.black) {
     return "#fff"
   }
