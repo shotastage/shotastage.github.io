@@ -12,7 +12,7 @@ import { Footer } from './Footer';
 import { Initial } from './Initial';
 import { Bootstrap } from './Themes/Bootstrap';
 
-import './App.scss';
+import './App.css';
 
 
 

@@ -1,0 +1,21 @@
+.Navbar_Toggle {
+    border: none;
+
+
+}
+
+.Navbar_Toggle span {
+    color: #333333;
+    border-color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+    .Navbar_Toggle {
+        border: none;
+    }
+
+    .Navbar_Toggle span {
+        color: white !important;
+        border-color: white !important;
+    }
+}

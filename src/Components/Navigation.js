@@ -4,7 +4,7 @@ import {
     Navbar, Nav
 } from 'react-bootstrap';
 import logo from '../images/brand.svg';
-import './Navigation.scss';
+import './Navigation.css';
 
 
 

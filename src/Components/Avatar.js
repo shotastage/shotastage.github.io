@@ -30,7 +30,7 @@ export class Avator extends React.Component {
 
   render() {
 
-    const imgURL = "https://pbs.twimg.com/profile_images/899687993476227075/RzQkQVwS_400x400.jpg";
+    const imgURL = "https://pbs.twimg.com/profile_images/1414945557999665161/W_ccWI58_400x400.jpg";
 
     const altText = "My Profile Photo";
 

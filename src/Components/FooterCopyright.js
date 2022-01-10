@@ -24,14 +24,10 @@ const CopyrightText = styled.p`
 
 export class FooterCopyright extends React.Component {
 
-  getCurrentYear() {
-    return new Date().getFullYear();      
-  }
-
   render() {
     return (
         <CopyrightText>
-            Copyright © 2018 to {this.getCurrentYear()} Shota Shimazu, All rights reserved.
+            Copyright © 2018 to 2021 Shota Shimazu, All rights reserved.
         </CopyrightText>
     );
   }
